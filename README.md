@@ -19,6 +19,7 @@ To get the recognition accuracy:
 # Supervised learning experiment
 
 CsiGANSupervisedGAN is for the Supervised learning using SignFi data (https://github.com/yongsen/SignFi).  For this semi-supervised learning experiment, there are not any data from the left-out user.  The SignFi data should be formatted to fit our model. And the processed data are too large to be uploaded here, and can be downloaded at: https://pan.baidu.com/s/1LV1pjl0-ITrbzAe0HCWUrA  and the extracted code is: 49gk.
+
 The running steps are the same to the Semi-supervised learning experiment
 
 
