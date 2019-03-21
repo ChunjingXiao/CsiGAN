@@ -4,9 +4,10 @@ This model aims to deal with the performance degradation problem of leave-one-su
 
 
 All the experiments are the eave-one-subject-out validation. In other words, we select one user as the left-out user, and the others as the trained ones. For this left-out user, we further evenly divide its data of each category into the unlabeled data set and testing set.  
-# Semi-supervised learning experiment
 
-CsiGANSemiSupervisedGAN is for the Semi-supervised learning using SignFi data (https://github.com/yongsen/SignFi).  For this semi-supervised learning experiment, we select 10% of unlabeled data from the left-out user for training the model with training set.  The SignFi data should be formatted to fit our model. And the processed data are too large to be uploaded here, and can be downloaded at: https://pan.baidu.com/s/1L-vrJxJ6v0HujbwjKhG4-g  and the extracted code is: 2stz .
+# CsiGANSemiSupervisedGAN
+
+CsiGANSemiSupervisedGAN is for the Semi-supervised learning experiment of CsiGAN using SignFi data (https://github.com/yongsen/SignFi).  For this semi-supervised learning experiment, we select 10% of unlabeled data from the left-out user for training the model with training set.  The SignFi data should be formatted to fit our model. And the processed data are too large to be uploaded here, and can be downloaded at: https://pan.baidu.com/s/1L-vrJxJ6v0HujbwjKhG4-g  and the extracted code is: 2stz .
 
 The codes are tested under python3.5 + tensorflow 1.8 + win7 and NVIDIA TITAN X 12GB GPU. 
 To get the recognition accuracy:
@@ -16,11 +17,34 @@ To get the recognition accuracy:
   4.	Run 3train_CSI_original_V40_2Unlabelled_C101.py: Python 3train_CSI_original_V40_2Unlabelled_C101.py
 
 
-# Supervised learning experiment
+# CsiGANSupervisedGAN
 
-CsiGANSupervisedGAN is for the Supervised learning using SignFi data (https://github.com/yongsen/SignFi).  For this semi-supervised learning experiment, there are not any data from the left-out user.  The SignFi data should be formatted to fit our model. And the processed data are too large to be uploaded here, and can be downloaded at: https://pan.baidu.com/s/1LV1pjl0-ITrbzAe0HCWUrA  and the extracted code is: 49gk.
+CsiGANSupervisedGAN is for the Supervised learning experiment of CsiGAN using SignFi data (https://github.com/yongsen/SignFi).  For this semi-supervised learning experiment, there are not any data from the left-out user.  The SignFi data should be formatted to fit our model. And the processed data are too large to be uploaded here, and can be downloaded at: https://pan.baidu.com/s/1LV1pjl0-ITrbzAe0HCWUrA  and the extracted code is: 49gk.
 
 The running steps are the same to the Semi-supervised learning experiment
 
 
 
+# BaselineSemiSupManiGAN
+
+
+BaselineSemiSupManiGAN is for the Semi-supervised learning experiment of the baseline: ManiGAN (Semisupervised learning with gans: Revisiting manifold regularization,ICLR 2018)
+This experiment use the same data with CsiGANSemiSupervisedGAN, and the running steps are also the same to CsiGANSemiSupervisedGAN.
+
+
+# BaselineSemiSupSSGAN
+
+BaselineSemiSupManiGAN is for the Semi-supervised learning experiment of the baseline: SSGAN (Improved techniques for training gans,NIPS 2016)
+This experiment use the same data with CsiGANSemiSupervisedGAN, and the running steps are also the same to CsiGANSemiSupervisedGAN.
+
+
+# BaselineSupervisedManiGAN
+
+BaselineSupervisedManiGAN is for the Supervised learning experiment of the baseline: ManiGAN (Semisupervised learning with gans: Revisiting manifold regularization,ICLR 2018)
+This experiment use the same data with CsiGANSupervisedGAN, and the running steps are also the same to CsiGANSupervisedGAN.
+
+
+# BaselineSupervisedSSGAN
+
+BaselineSupervisedManiGAN is for the Supervised learning experiment of the baseline: SSGAN (Improved techniques for training gans,NIPS 2016)
+This experiment use the same data with CsiGANSupervisedGAN, and the running steps are also the same to CsiGANSupervisedGAN.
