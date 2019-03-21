@@ -29,22 +29,26 @@ The running steps are the same to the Semi-supervised learning experiment
 
 
 BaselineSemiSupManiGAN is for the Semi-supervised learning experiment of the baseline: ManiGAN (Semisupervised learning with gans: Revisiting manifold regularization,ICLR 2018)
+
 This experiment use the same data with CsiGANSemiSupervisedGAN, and the running steps are also the same to CsiGANSemiSupervisedGAN.
 
 
 # BaselineSemiSupSSGAN
 
 BaselineSemiSupManiGAN is for the Semi-supervised learning experiment of the baseline: SSGAN (Improved techniques for training gans,NIPS 2016)
+
 This experiment use the same data with CsiGANSemiSupervisedGAN, and the running steps are also the same to CsiGANSemiSupervisedGAN.
 
 
 # BaselineSupervisedManiGAN
 
 BaselineSupervisedManiGAN is for the Supervised learning experiment of the baseline: ManiGAN (Semisupervised learning with gans: Revisiting manifold regularization,ICLR 2018)
+
 This experiment use the same data with CsiGANSupervisedGAN, and the running steps are also the same to CsiGANSupervisedGAN.
 
 
 # BaselineSupervisedSSGAN
 
 BaselineSupervisedManiGAN is for the Supervised learning experiment of the baseline: SSGAN (Improved techniques for training gans,NIPS 2016)
+
 This experiment use the same data with CsiGANSupervisedGAN, and the running steps are also the same to CsiGANSupervisedGAN.
