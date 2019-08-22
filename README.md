@@ -1,5 +1,7 @@
 # CsiGAN
 
+These are the code and data for the paper: CsiGAN: Robust Channel State Information-based Activity Recognition with GANs, IEEE Internet of Things Journal, accepted for publication. https://ieeexplore.ieee.org/document/8808929
+
 This model aims to deal with the performance degradation problem of leave-one-subject-out validation for CSI-based activity recognition, and can efficiently improve the recognition accuracy. 
 
 
