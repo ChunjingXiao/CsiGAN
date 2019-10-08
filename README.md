@@ -5,7 +5,7 @@ These are the code and data for the paper: CsiGAN: Robust Channel State Informat
 This model aims to deal with the performance degradation problem of leave-one-subject-out validation for CSI-based activity recognition, and can efficiently improve the recognition accuracy. 
 
 
-All the experiments are the eave-one-subject-out validation. In other words, we select one user as the left-out user, and the others as the trained ones. For this left-out user, we further evenly divide its data of each category into the unlabeled data set and testing set.  
+All the experiments are the leave-one-subject-out validation. In other words, we select one user as the left-out user, and the others as the trained ones. For this left-out user, we further evenly divide its data of each category into the unlabeled data set and testing set.  
 
 # CsiGANSemiSupervisedGAN
 
