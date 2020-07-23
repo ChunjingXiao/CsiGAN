@@ -54,3 +54,7 @@ This experiment use the same data with CsiGANSupervisedGAN, and the running step
 BaselineSupervisedManiGAN is for the Supervised learning experiment of the baseline: SSGAN (Improved techniques for training gans,NIPS 2016)
 
 This experiment use the same data with CsiGANSupervisedGAN, and the running steps are also the same to CsiGANSupervisedGAN.
+
+# DatasetCodeForSignFi
+
+These codes are used to generate the data for our experiments. These codes require the file “dataset_lab_150.mat” which can be downloaded from the paper signFi (https://github.com/yongsen/SignFi).
