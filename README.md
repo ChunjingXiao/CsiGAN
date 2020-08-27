@@ -1,8 +1,19 @@
 # CsiGAN
 
-These are the code and data for the paper: CsiGAN: Robust Channel State Information-based Activity Recognition with GANs, IEEE Internet of Things Journal, accepted for publication. https://ieeexplore.ieee.org/document/8808929
+These are the code and data for the paper: [CsiGAN: Robust Channel State Information-based Activity Recognition with GANs](https://github.com/ChunjingXiao/CsiGAN/blob/master/CsiGAN%20Robust%20Channel%20State%20Information-based%20Activity%20Recognition%20with%20GANs.pdf), IEEE Internet of Things Journal, 2019, 6(6): 10191-10204. https://ieeexplore.ieee.org/document/8808929 
 
 This model aims to deal with the performance degradation problem of leave-one-subject-out validation for CSI-based activity recognition, and can efficiently improve the recognition accuracy. 
+
+
+CsiGAN is designed based on the semi-supervised GAN[1]. Figure 1 and Figure 2 illustrate the main frameworks of CsiGAN and the semi-supervised GAN[1]. CsiGAN is different from this semi-supervised GAN in three aspects: (1) the complement generator Gc is introduced into CsiGAN to produce complement fake samples. (2) The k probability outputs (1’• • • k’) and corresponding loss term are added for the discriminator. (3) Based on the introduced generator, the manifold regularization is proposed to stabilize the learning process (not shown in the framework figure).
+
+![Figure 1. Framework of CsiGAN](https://github.com/ChunjingXiao/CsiGAN/blob/master/Framework_CsiGAN.png).
+<p align="center">Figure 1. Framework of CsiGAN</p>
+
+
+![Figure 2. Framework of the semi-supervised GAN](https://github.com/ChunjingXiao/CsiGAN/blob/master/Framework_SemiGAN.png).
+<p align="center">Figure 2. Framework of the semi-supervised GAN</p>
+
 
 
 All the experiments are the leave-one-subject-out validation. In other words, we select one user as the left-out user, and the others as the trained ones. For this left-out user, we further evenly divide its data of each category into the unlabeled data set and testing set.  
@@ -58,3 +69,7 @@ This experiment use the same data with CsiGANSupervisedGAN, and the running step
 # DatasetCodeForSignFi
 
 These codes are used to generate the data for our experiments. These codes require the file “dataset_lab_150.mat” which can be downloaded from the paper signFi (https://github.com/yongsen/SignFi).
+
+
+[1] T. Salimans, I. Goodfellow, W. Zaremba, V. Cheung, A. Radford, and X. Chen, “Improved techniques for training gans,” NIPS 2016.
+
