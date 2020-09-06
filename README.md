@@ -18,6 +18,13 @@ CsiGAN is designed based on the semi-supervised GAN[1]. Figure 1 and Figure 2 il
 
 All the experiments are the leave-one-subject-out validation. In other words, we select one user as the left-out user, and the others as the trained ones. For this left-out user, we further evenly divide its data of each category into the unlabeled data set and testing set.  
 
+#Abstract
+
+As a cornerstone service for many Internet of Things applications, Channel State Information (CSI) based activity recognition has received immense attention over recent years. However, recognition performance of general approaches might significantly decrease when applying the trained model to the left-out user whose CSI data are not used for model training. To overcome this challenge, we propose a semi-supervised Generative Adversarial Network (GAN) for CSI-based activity recognition, CsiGAN.
+Based on general semi-supervised GANs, we mainly design three components for CsiGAN to meet the scenarios that unlabeled data form left-out users are very limited and enhance recognition performance. 1) We introduce a new complement generator, which can use limited unlabeled data to produce diverse fake samples for training a robust discriminator.
+2) For the discriminator, we change the number of probability outputs from k+1 into 2k+1 (here k is the number of categories), which can help obtain the correct decision boundary for each category. 3) Based on the introduced generator, we propose a manifold regularization, which can stabilize the learning process. The experiments suggest that CsiGAN attains significant gains compared to state-of-the-art methods.
+
+
 # CsiGANSemiSupervisedGAN
 
 CsiGANSemiSupervisedGAN is for the Semi-supervised learning experiment of CsiGAN using SignFi data (https://github.com/yongsen/SignFi).  For this semi-supervised learning experiment, we select 10% of unlabeled data from the left-out user for training the model with training set.  The SignFi data should be formatted to fit our model. And the processed data are too large to be uploaded here, and can be downloaded at: https://pan.baidu.com/s/1L-vrJxJ6v0HujbwjKhG4-g  and the extracted code is: 2stz .
