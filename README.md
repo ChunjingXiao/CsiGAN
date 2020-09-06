@@ -18,7 +18,7 @@ CsiGAN is designed based on the semi-supervised GAN[1]. Figure 1 and Figure 2 il
 
 All the experiments are the leave-one-subject-out validation. In other words, we select one user as the left-out user, and the others as the trained ones. For this left-out user, we further evenly divide its data of each category into the unlabeled data set and testing set.  
 
-#Abstract
+# Abstract
 
 As a cornerstone service for many Internet of Things applications, Channel State Information (CSI) based activity recognition has received immense attention over recent years. However, recognition performance of general approaches might significantly decrease when applying the trained model to the left-out user whose CSI data are not used for model training. To overcome this challenge, we propose a semi-supervised Generative Adversarial Network (GAN) for CSI-based activity recognition, CsiGAN.
 Based on general semi-supervised GANs, we mainly design three components for CsiGAN to meet the scenarios that unlabeled data form left-out users are very limited and enhance recognition performance. 1) We introduce a new complement generator, which can use limited unlabeled data to produce diverse fake samples for training a robust discriminator.
