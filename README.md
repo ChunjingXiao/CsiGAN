@@ -24,6 +24,18 @@ As a cornerstone service for many Internet of Things applications, Channel State
 Based on general semi-supervised GANs, we mainly design three components for CsiGAN to meet the scenarios that unlabeled data form left-out users are very limited and enhance recognition performance. 1) We introduce a new complement generator, which can use limited unlabeled data to produce diverse fake samples for training a robust discriminator.
 2) For the discriminator, we change the number of probability outputs from k+1 into 2k+1 (here k is the number of categories), which can help obtain the correct decision boundary for each category. 3) Based on the introduced generator, we propose a manifold regularization, which can stabilize the learning process. The experiments suggest that CsiGAN attains significant gains compared to state-of-the-art methods.
 
+# Citation
+
+@ARTICLE{CsiGAN2019,
+  &nbsp; &nbsp; author={Xiao, Chunjing and Han, Daojun and Ma, Yongsen and Qin, Zhiguang},
+  &nbsp; &nbsp; journal={IEEE Internet of Things Journal}, 
+  &nbsp; &nbsp; title={CsiGAN: Robust Channel State Information-Based Activity Recognition With GANs}, 
+  &nbsp; &nbsp; year={2019},
+  &nbsp; &nbsp; volume={6},
+  &nbsp; &nbsp; number={6},
+  &nbsp; &nbsp; pages={10191-10204},
+  &nbsp; &nbsp; doi={10.1109/JIOT.2019.2936580}
+}
 
 # CsiGANSemiSupervisedGAN
 
