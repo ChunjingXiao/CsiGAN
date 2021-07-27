@@ -26,16 +26,16 @@ Based on general semi-supervised GANs, we mainly design three components for Csi
 
 # Citation
 
-@ARTICLE{CsiGAN2019,
-  &nbsp; &nbsp; author={Xiao, Chunjing and Han, Daojun and Ma, Yongsen and Qin, Zhiguang},
-  &nbsp; &nbsp; journal={IEEE Internet of Things Journal}, 
-  &nbsp; &nbsp; title={CsiGAN: Robust Channel State Information-Based Activity Recognition With GANs}, 
-  &nbsp; &nbsp; year={2019},
-  &nbsp; &nbsp; volume={6},
-  &nbsp; &nbsp; number={6},
-  &nbsp; &nbsp; pages={10191-10204},
-  &nbsp; &nbsp; doi={10.1109/JIOT.2019.2936580}
-}
+@ARTICLE{CsiGAN2019,  
+&nbsp; &nbsp; author={Xiao, Chunjing and Han, Daojun and Ma, Yongsen and Qin, Zhiguang},  
+&nbsp; &nbsp; journal={IEEE Internet of Things Journal},   
+&nbsp; &nbsp; title={CsiGAN: Robust Channel State Information-Based Activity Recognition With GANs},   
+&nbsp; &nbsp; year={2019},  
+&nbsp; &nbsp; volume={6},  
+&nbsp; &nbsp; number={6},  
+&nbsp; &nbsp; pages={10191-10204},  
+&nbsp; &nbsp; doi={10.1109/JIOT.2019.2936580}  
+} 
 
 # CsiGANSemiSupervisedGAN
 
